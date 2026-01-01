@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            min-height: 100vh;
+            width: 100%;
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            height: 120px;
+            width: 100%;
+            background-color: #6f7cd4;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            overflow: hidden;
+        }
+        .logo {
+            height: 85px;
+            width: 95px;
+            margin-left: 10px;
+            border-radius: 12px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .logo img {
+            object-fit: contain;
+            height: 85px;
+            width: 95px;
+        }
+        .header a {
+            color: black;
+            text-decoration: none;
+            font-size: 23px;
+            display: flex;
+            align-items: center;
+        }
+        .header a img {
+            height: 26px;
+            width: 26px;
+            margin-right: 8px;
+        }
+        .header a:hover {
+            color: rgb(111, 38, 142);
+            cursor: pointer;
+        }
+        #home, #aboutus, #contact {
+            display: flex;
+            align-items: center;
+        }
+        #home img, #aboutus img, #contact img {
+            height: 26px;
+            width: 26px;
+            margin-right: 8px;
+        }
+        .main-content {
+            padding-top: 120px;
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: calc(100vh - 120px);
+        }
+        .contact {
+            height: 350px;
+            width: 480px;
+            background-color: #f9f9f9;
+            position: relative;
+            border-radius: 20px;
+            border: 1px solid wheat;
+            padding: 20px;
+            text-align: left;
+        }
+        .contact:hover {
+            height: 360px;
+            width: 490px;
+        }
+        #ah {
+            font-size: 30px;
+            margin-top: 10px;
+            margin-left: 0;
+            color: #6f7cd4;
+            font-weight: bold;
+        }
+        #add {
+            font-size: 18px;
+            margin-top: 13px;
+            margin-left: 0;
+            line-height: 1.4;
+        }
+        #time {
+            font-size: 18px;
+            margin-top: 13px;
+            margin-left: 0;
+        }
+        .ph {
+            display: flex;
+            margin-top: 20px;
+            font-size: 18px;
+            margin-left: 0;
+        }
+        .ph img {
+            height: 20px;
+            width: 20px;
+            margin-top: 2px;
+            margin-right: 10px;
+        }
+        #map {
+            margin-left: 290px;
+            font-size: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        #map a {
+            color: #6f7cd4;
+            text-decoration: none;
+        }
+        #map a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            width: 100%;
+            background-color: #4d5797;
+            color: white;
+            padding: 40px 100px;
+        }
+        .footer-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .footer-col {
+            flex: 1;
+            margin-right: 40px;
+        }
+        .footer-col:last-child {
+            margin-right: 0;
+        }
+        .footer-col img {
+            width: 160px;
+            height: 120px;
+            margin-bottom: 10px;
+        }
+        .footer h4 {
+            color: white;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+        .footerlogo {
+            display: flex;
+            margin-top: 10px;
+        }
+        .footerlogo img {
+            height: 30px;
+            width: 30px;
+            margin-right: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        table {
+            border-spacing: 0;
+            border-collapse: collapse;
+            color: white;
+            width: 100%;
+        }
+        td {
+            padding: 2px 0;
+        }
+        table a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        table a:hover {
+            color: #b2baff;
+        }
+        table h3 {
+            color: black;
+            margin-bottom: 5px;
+        }
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            font-size: 14px;
+            color: white;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo">
+        </div>
+        <a href="website.html" id="home">
+            <img src="https://cdn4.iconfinder.com/data/icons/top-search-7/128/_home_house_building_property_estate-128.png" alt="Home Icon">
+            Home
+        </a>
+        <a href="aboutus.html" id="aboutus">
+            <img src="https://cdn3.iconfinder.com/data/icons/kicon-business/24/office-128.png" alt="About Us Icon">
+            About us
+        </a>
+        <a href="contact.html" id="contact">
+            <img src="https://cdn0.iconfinder.com/data/icons/ecommerce-business/24/phone-128.png" alt="Contact Icon">
+            Contact us
+        </a>
+        <a href="Login.html" id="login">Login</a>
+    </div>
+
+    <div class="main-content">
+        <div class="contact">
+            <div id="ah">Ahmedabad</div>
+            <div id="add">303, Jalbhumi Avenue, old pilot <br/>dairy road, Kankaria, <br/>Ahmedabad, Gujarat - 380022</div>
+            <div id="time">Office Timings: 10AM to 8PM</div>
+            <div class="ph">
+                <img src="https://cdn0.iconfinder.com/data/icons/ecommerce-business/24/phone-128.png" alt="Phone Icon">
+                +91 - 9428705649
+            </div>
+            <div class="ph">
+                <img src="https://cdn0.iconfinder.com/data/icons/ecommerce-business/24/phone-128.png" alt="Phone Icon">
+                +91 - 9016326664
+            </div>
+            <div id="map">
+                <a href="https://www.bing.com/maps?&ty=18&q=303%2Cjalbhumi%20avenue%20old%20pilot%20dairy%20kankaria%20ahmedabad&mb=23.010869~72.590604~22.999172~72.599719&cardbg=%23FFFFFF&dt=1759563000000&tt=Kankaria%2C%20Ahmedabad%2C%20Gujarat&tsts0=%2526ty%253D18%2526q%253D303%25252Cjalbhumi%252520avenue%252520old%252520pilot%252520dairy%252520kankaria%252520ahmedabad%2526mb%253D23.010869~72.590604~22.999172~72.599719%2526cardbg%253D%252523FFFFFF%2526dt%253D1759563000000&tstt0=Kankaria%2C%20Ahmedabad%2C%20Gujarat&cp=23.005032~72.588873&lvl=15.236781&pi=0&ftst=0&ftics=False&v=2&sV=2&form=S00027">View on Map ></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer-top">
+            <div class="footer-col">
+                <img src="footerimage.svg" alt="Footer Image">
+                <h4>
+                    Invincible is a Non Government Organization,<br>
+                    being run by young students for social<br>
+                    reformation and building the nation with moral<br>
+                    values and ethics.
+                </h4>
+                <div class="footerlogo">
+                    <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Facebook_glyph_svg-1024.png" alt="Facebook">
+                    <img src="https://cdn2.iconfinder.com/data/icons/social-media-2421/512/Instagram-1024.png" alt="Instagram">
+                    <img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Youtube_svg-1024.png" alt="YouTube">
+                    <img src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/whatsapp-1024.png" alt="WhatsApp">
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <table>
+                    <tr><td><h3>Quick Links</h3></td></tr>
+                    <tr><td><a href="Website.html">Home</a></td></tr>
+                    <tr><td><a href="Login.html">Login</a></td></tr>
+                    <tr><td><a href="contact.html">Contact us</a></td></tr>
+                </table>
+            </div>
+
+            <div class="footer-col">
+                <table>
+                    <tr><td><h3>Address</h3></td></tr>
+                    <tr><td><a>48, Kothari Market</a></td></tr>
+                    <tr><td><a href="#">DB Road</a></td></tr>
+                    <tr><td><a href="#">Kankaria,Ahmedabad</a></td></tr>
+                    <tr><td><a href="#">Email: rj06@gmail.com</a></td></tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            © 2025 Invincible NGO | All Rights Reserved
+        </div>
+    </div>
+</body>
+</html>

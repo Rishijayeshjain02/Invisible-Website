@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About us</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      width: 100%;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
+    }
+
+    .header {
+      height: 120px;
+      width: 100%;
+      background-color: #6f7cd4;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .logo {
+      height: 85px;
+      width: 95px;
+      margin-left: 10px;
+      border-radius: 12px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .logo img {
+      object-fit: contain;
+      height: 85px;
+      width: 95px;
+    }
+
+    .header a {
+      color: black;
+      text-decoration: none;
+      font-size: 23px;
+      display: flex;
+      align-items: center;
+    }
+    .header a img {
+      height: 26px;
+      width: 26px;
+      margin-right: 8px;
+    }
+
+    #home:hover, #aboutus:hover, #contact:hover, #login:hover {
+      color: rgb(111, 38, 142);
+      cursor: pointer;
+    }
+
+    #home, #aboutus, #contact {
+      display: flex;
+      align-items: center;
+    }
+
+    #home img, #aboutus img, #contact img {
+      height: 26px;
+      width: 26px;
+      margin-right: 8px;
+    }
+
+    .aboutcontent {
+      align-content: center;
+      justify-content: center;
+      margin-left: 260px;
+      padding-top: 120px;
+    }
+
+    #vision {
+      margin-top: 140px;
+    }
+
+    h3 {
+      color: #6f7cd4;
+    }
+
+    .footer {
+      width: 100%;
+      background-color: #4d5797;
+      color: white;
+      padding: 40px 100px;
+      box-sizing: border-box;
+    }
+
+    .footer-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .footer-col {
+      flex: 1;
+      margin-top: 20px;
+    }
+
+    .footer-col img {
+      width: 160px;
+      height: 120px;
+    }
+
+    .footer h4 {
+      color: white;
+      line-height: 1.5;
+    }
+
+    .footerlogo {
+      display: flex;
+      margin-top: 10px;
+    }
+
+    .footerlogo img {
+      height: 30px;
+      width: 30px;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+
+    table {
+      border-spacing: 0;
+      border-collapse: collapse;
+      color: white;
+    }
+
+    td {
+      padding: 2px 0;
+    }
+
+    table a {
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    table a:hover {
+      color: #b2baff;
+    }
+
+    table h3 {
+      color: black;
+      margin-bottom: 5px;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding-top: 20px;
+      font-size: 14px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo">
+      <img src="logo.jpg" alt="Logo">
+    </div>
+    <a href="website.html" id="home">
+      <img src="https://cdn4.iconfinder.com/data/icons/top-search-7/128/_home_house_building_property_estate-128.png" alt="Home Icon">Home
+    </a>
+    <a href="aboutus.html" id="aboutus">
+      <img src="https://cdn3.iconfinder.com/data/icons/kicon-business/24/office-128.png" alt="About Us Icon">About us
+    </a>
+    <a href="contact.html" id="contact">
+      <img src="https://cdn0.iconfinder.com/data/icons/ecommerce-business/24/phone-128.png" alt="Contact Icon">Contact us
+    </a>
+    <a href="Login.html" id="login">Login</a>
+  </div>
+
+  <div class="aboutcontent">
+    <h3 id="vision">Vision</h3>
+    Keeping the core values and the ethics in center, INVINCIBLE – the NGO will be a benchmark in training the youth for a better situation. The NGO will <br/>
+    work for enhancement of all good qualities in the modern youth with a brighter way…<br /><br /><br />
+    <br/><br/><br/>
+
+    <h3>Mission</h3>
+    The motive of the NGO is to moderate the young thinking for a happy and developed world. The youth become responsible and understand their own <br />
+    need for the society and country is the heart value of the mission…<br /><br /><br />
+    <br/><br/><br/>
+
+    <h3>Objectives</h3>
+     The idea of establishing NGO came up during the various activities with other NGOs as a part of collaboration with NSS/NCC in college activities. It was a<br />
+     very clear view behind the organization that it will be for young people and specially students development activities will be given priority.<br /><br />
+     Keeping the ethics and value system in center, the NGO has thought for such activities, which will fill valuable qualities in the youth. NGO is thankful to all <br />
+     the young students of various colleges who are voluntarily giving a boost to the activities. For spreading awareness in the field of adventure, NGO has<br />
+    planned some very charming events as per regular basis.<br /><br /><br />
+    <br/><br/><br/>
+  </div>
+
+  <div class="footer">
+    <div class="footer-top">
+      <div class="footer-col">
+        <img src="footerimage.svg" >
+        <h4>
+          Invincible is a Non Government Organization,<br>
+          being run by young students for social<br>
+          reformation and building the nation with moral<br>
+          values and ethics.
+        </h4>
+        <div class="footerlogo">
+          <img src="https://cdn3.iconfinder.com/data/icons/social-media-black-white-2/512/BW_Facebook_glyph_svg-1024.png">
+          <img src="https://cdn2.iconfinder.com/data/icons/social-media-2421/512/Instagram-1024.png">
+          <img src="https://cdn1.iconfinder.com/data/icons/social-media-circle-7/512/Circled_Youtube_svg-1024.png">
+          <img src="https://cdn4.iconfinder.com/data/icons/miu-black-social-2/60/whatsapp-1024.png">
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <table>
+          <tr><td><h3>Quick Links</h3></td></tr>
+          <tr><td><a href="Website.html">Home</a></td></tr>
+          <tr><td><a href="Login.html">Login</a></td></tr>
+          <tr><td><a href="contact.html">Contact us</a></td></tr>
+        </table>
+      </div>
+
+      <div class="footer-col">
+        <table>
+          <tr><td><h3>Address</h3></td></tr>
+          <tr><td><a>48, Kothari Market</a></td></tr>
+          <tr><td><a href="#">DB Road</a></td></tr>
+          <tr><td><a href="#">Kankaria,Ahmedabad</a></td></tr>
+          <tr><td><a href="#">Email: rj06@gmail.com</a></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      © 2025 Invincible NGO | All Rights Reserved
+    </div>
+  </div>
+</body>
+</html>
